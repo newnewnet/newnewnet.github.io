@@ -51,3 +51,8 @@ p{
 md-sidenav {
   background: url("img/background.jpg") 0% 0% / cover;
 }
+@media only screen and (max-width: 640px){
+  .contents{
+    padding: 5px 5px;
+  }
+}
