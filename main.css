@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'rsu';
+  src: url('fonts/RSU_Regular.ttf');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+.contents{
+  padding: 40px 50px;
+  font-family: 'rsu';
+}
+.contents h3{
+  font-size: 30px;
+  margin: 0;
+}
+.contents ul li, .contents p{
+  font-size: 20px;
+}
+.text_underline{
+  text-decoration: underline;
+}
+.md-avatar {
+  display: inline-block;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 3px rgb(250,250,250);
+}
+.nav-header{
+  margin-top: 50px;
+  text-align: center;
+}
+.md-toolbar-tools{
+  color: #fff;
+}
+.md-heading{
+  color: #fff;
+  /*color: rgba(0,0,0,0.54);*/
+}
+
+md-sidenav {
+  background-color: rgb(96,125,139);
+  position: absolute;
+  height: 100%;
+}
+
+p{
+  margin: 0;
+  padding: 10px ;
+}
+
+md-sidenav {
+  background: url("img/background.jpg") 0% 0% / cover;
+}
