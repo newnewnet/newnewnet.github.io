@@ -14,6 +14,9 @@
   font-size: 30px;
   margin: 0;
 }
+.contents ul{
+    padding-left: 27px;
+}
 .contents ul li, .contents p{
   font-size: 20px;
 }
